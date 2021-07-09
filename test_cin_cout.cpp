@@ -9,7 +9,7 @@ using namespace std;
 
 int main(){
     int len;
-    cin>>len;
+    cin>>len; 
     // cout<<len<<endl;
     vector<int> v(len,0);
     for(int i=0;i<len;i++){
@@ -17,6 +17,9 @@ int main(){
     }
     for(int i=0;i<len;i++){
         cout<<v[i]<<" ";
+    }
+    for(int j=0;j<100;j++){
+        cout<<j<<endl;
     }
 
 
